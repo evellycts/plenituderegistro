@@ -1,0 +1,537 @@
+@media screen and (max-width: 1110px){
+    header .menu-desktop, header .btn-whatsapp{
+        display: none;
+    }
+    header .btn-menu-mobile{
+        display: flex;
+    }
+
+    /* Responsivo hero-site */
+    section.hero-site{
+        height: 100vh;
+        background-color: #020791f5;
+        background-image: none;
+        color: aliceblue;
+        padding: 15px;
+    }
+    .hero-site .txt-hero h1{
+        font-size: 2em;
+        line-height: 45px;
+        font-weight: 200;
+        margin-top: 200px;
+    }
+    
+    .hero-site .txt-hero h1 span{
+        display: block;
+        color: aliceblue;
+        font-size: 1.1em;
+    }
+    
+    .hero-site .txt-hero p{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px 0;
+    }
+    
+    .hero-site .txt-hero p span{
+        display: block;
+        color: aliceblue;
+    }
+    
+    .hero-site button{
+        background-image: url(../images/44faa437c76ef8e8f063fed96769d84d.png);
+        background-position: center;
+        width: 300px;
+        height: 60px;
+        border-radius: 12px;
+        font-size: 24px;
+        color: #020691;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .hero-site button:hover {
+        background-position: right center; 
+        transform: scale(1.05); 
+      }
+
+    /* responsivo Beneficios 1 */
+section.beneficios1{
+    padding: 80px 0;
+    text-align:justify;
+}
+section.beneficios1 .interface h2{
+    text-align: center;
+    padding: 35px 0;
+    color: #020691;
+    font-size: 30px;
+}
+section.beneficios1 .interface h2 span{
+    background-color:rgba(250, 213, 6, 0.438);
+    color:#020691 ;
+    padding: 0 4px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.beneficios1 .itens-container {
+    margin: 40px auto;           /* centraliza horizontalmente */
+    max-width: 1000px;           /* largura máxima */
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 40px ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    padding: 50px;
+    background-color: #020691;
+    flex-direction: column;
+
+}
+.beneficios1 .itens-container:hover {
+    transform: translateY(-6px);
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, 0.2);
+  }
+.beneficios1 .icone-itens i {
+    color: aliceblue;
+    font-size: 100px;
+    margin-bottom: 20px;
+    transition: transform 0.7s ease, filter 0.7s ease;
+    display: flex;
+  }
+
+.beneficios1 .itens-container:hover .icone-itens i {
+    transform: rotate(360deg);
+    filter: drop-shadow(0 4px 8px rgba(250, 213, 6, 0.5));
+  }
+.itens-container .txt-itens h3{
+    font-size: 2em;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color:  rgba(250, 213, 6, 0.801);
+
+}
+.itens-container .txt-itens h3 span{
+    font-weight: 300;
+    color:#f4f4f4 ;
+}
+.itens-container .txt-itens p{
+    font-size: 1.2em;
+    color:#f4f4f4;
+}
+.cta {
+    text-align: center;
+  }
+  
+  .cta p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #020691;
+  }
+  
+  .cta .destaque {
+    background-color:rgba(250, 213, 6, 0.438);
+    color:#020691 ;
+    padding: 0 4px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .btn-registrar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #020691;
+    color:  rgba(250, 213, 6, 0.808);
+    padding: 16px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 90, 53, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-registrar:hover {
+    background-color: #020691;
+    transform: scale(1.05);
+  }
+
+/* responsivo card beneficios */
+
+  .sessao-beneficios {
+    padding: 60px 20px;
+    background: #f5f5f5;
+    text-align: center;
+    color:#020691;
+  }
+
+  
+.cards-beneficios {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+.titulo-com-imagem {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaço entre texto e imagem */
+  }
+  
+  .titulo-com-imagem img {
+    width: 43%; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    max-width: 300px;
+  }
+  .card {
+    background: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 750px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .card-header {
+    color:aliceblue;
+    padding: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .card:hover{
+    transform: translateY(-6px);
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .verde-escuro {
+    background:#020691;
+  }
+  
+  .card ul {
+    text-align:center;
+    padding: 20px;
+    font-size: 1.2rem;
+    list-style:none;
+    color: #020691;
+  }
+  
+  .card ul li {
+    margin-bottom: 12px;
+  }
+  .card ul li i{
+    color:  rgba(250, 213, 6, 0.74);
+  }
+  .destaques {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+   
+  }
+  .destaques div:hover{
+    transform: translateY(-6px);
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, 0);
+  }
+  
+  .destaques div {
+    font-size: 1.5rem;
+    color:#020691;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .destaques strong {
+    font-size: 3.5rem;
+    color:rgba(250, 213, 6, 0.829);
+  }
+ 
+  .destaques-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 40px auto 0;
+  }
+  
+  .destaques img {
+    width: 100px;
+    margin-bottom: 8px;
+  }
+/* Como funciona */
+.txt-funciona, .instrucoes{
+    display: block;
+    width: 100%;
+}
+.como-funciona .txt-funciona{
+    position: static;
+}
+.como-funciona .txt-funciona h3{
+    font-size: 2.5em;
+    line-height: 50px;
+    font-weight: 300;
+    color:aliceblue;
+}
+
+.instrucoes .instru-box{
+    flex-direction: column;
+}
+.instrucoes .instru-box:hover{
+    transform: scale(1.1); /* efeito ao passar o mouse */
+}
+.instrucoes .instru-box img{
+    max-width: 100px;
+}
+.instrucoes .instru-box h4{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: aliceblue;
+
+}
+
+/* Sobre */
+.sobre {
+    position: relative;
+    background-color: #020691 ; /* fundo da seção */
+    padding: 80px 0;
+    z-index: 6;
+    overflow: visible; /* permite exibir o ::before acima */
+    background-image:url(/images/_banner\ fundo\ liso\ \ R\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 0 30px;
+  }
+  
+  /* Cria o corte inclinado usando o ::before */
+  .sobre::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color:#020691; /* cor da seção anterior */
+    transform: skewY(1.5deg); /* ângulo da inclinação */
+    transform-origin: top left;
+    z-index: -1;
+  }
+section.sobre .flex {
+    display: flex;
+    flex-direction: column-reverse; /* Inverte: imagem à direita, texto à esquerda */
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: rgb(91, 97, 97);
+    flex: 1 1 500px; /* ocupa metade ou mais */
+    color: white;
+    max-width: 600px;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #c89e11;
+    display: block;
+    font-size: 35px;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 1em;
+}
+.sobre .txt-sobre p span{
+    color:  #c89e11;
+    font-size: 1.1em;
+}
+.img-sobre {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0;
+}
+.img-sobre img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* duvidas */
+.contato-faq {
+    background-color: #020691;
+    padding: 80px 4%;
+    color: white;
+    background-image: url(/images/_banner\ fundo\ plenitude\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    
+  }
+  
+  .contato-faq .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .col-esquerda {
+    flex: 1 1 55%;
+    padding: 20px 10px;
+  }
+  
+  .col-direita {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+  .col-direita p{
+    color: aliceblue;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-top: 0;
+  }
+  .col-direita p span{
+    color: #c89e11;
+    padding: 0 4px;
+    border-radius: 4px;
+    font-weight: 800;
+  }
+  
+  .col-esquerda h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #c89e11;
+  }
+  
+  .col-esquerda p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+  
+  
+  .faq details {
+    background-color: #020691;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .faq summary {
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 1.1rem;
+
+  }
+  
+  .faq p {
+    margin-top: 8px;
+    color:#c89e11;
+  }
+  .faq2 p{
+    margin-top: 8px;
+    color: #f4f4f4;
+  }
+  
+  .card-instagram {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0px;
+    position: relative;
+    overflow: visible; /* precisa permitir o botão sair */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+  }
+  
+  .card-instagram img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+.col-esquerda .imagem > img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    max-width: 350px;
+    padding: 10px 0;
+    
+}
+  
+
+  .btn-whatsapp2 {
+    display: inline-block;
+    background: linear-gradient(90deg, #f9cb4a, #c89e11);
+    color: #020691;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .btn-whatsapp2:hover{
+    background: linear-gradient(90deg, #f9cb4a, #c89e11);
+    transform: scale(1.05);
+  }
+ /* Botão dentro da imagem */
+.card-instagram .btn-instagram {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, #f9cb4a, #c89e11);
+    color: #020691;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 5;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  .card-instagram .btn-instagram:hover {
+    background: linear-gradient(90deg, #f9cb4a, #c89e11);
+    transform: translateX(-50%) scale(1.05);
+  }
+  
+.bottom-footer{
+  border-top: 2px solid #fff;
+  text-align: center;
+  padding: 20px 0 10px;
+  margin-top: 80px;
+}
+
+.bottom-footer p{
+    font-size: 1rem;
+    padding: 10px;
+    margin: 0;
+}
+
+    
+    
+}
